@@ -95,7 +95,7 @@ import { TextInput } from "../../components/TextInput";
 const Home = () => {
   const [posts, setPosts] = useState([]);
   const [allPosts, setAllPosts] = useState([]);
-  const [postsPerPage] = useState(4);
+  const [postsPerPage] = useState(2);
   const [page, setPage] = useState(0);
   const [searchValue, setSearchValue] = useState("");
 
